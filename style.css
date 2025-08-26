@@ -1,4 +1,16 @@
 body {
   background-color: #0C0920;
 }
+CSS:
+.container {
+display: flex;
+align-items: center;
+gap: 1rem; 
+}
+.brand {
+/ stays at the left /
+}
+.site-nav {
+margin-left: auto; / pushes nav to the far right */
+}
 
