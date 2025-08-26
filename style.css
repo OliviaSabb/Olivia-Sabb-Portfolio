@@ -3,5 +3,8 @@ body {
 }
 
 .site-header {
-background-color: #123456;
+  margin: 0;
+  width: 100%;
+background-color: #080F28;
 }
+
