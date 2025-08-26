@@ -12,6 +12,20 @@ background-color: #080F28;
   top: 0;
 }
 
+/* push nav to the right */
+.site-nav { margin-left: auto; }
+
+/* make the nav links sit in a row */
+.site-nav ul {
+  display: flex;         /* makes list items line up horizontally */
+  gap: 1rem;             /* space between links */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+
 
 
 
