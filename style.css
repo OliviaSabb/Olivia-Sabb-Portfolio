@@ -12,17 +12,41 @@ background-color: #080F28;
   top: 0;
 }
 
-/* push nav to the right */
+
 .site-nav { margin-left: auto; }
 
-/* make the nav links sit in a row */
+
 .site-nav ul {
-  display: flex;         /* makes list items line up horizontally */
-  gap: 1rem;             /* space between links */
+  display: flex;        
+  gap: 1rem;             
   margin: 0;
   padding: 0;
   list-style: none;
   align-items: center;
+}
+
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.35rem 0.5rem;
+  border-radius: 4px;
+}
+.site-nav a:hover {
+  background: rgba(255,255,255,0.04);
+  color: #6fc3ff;
+}
+
+
+.nav-toggle { display: none; }
+
+
+@media (max-width: 720px) {
+  .nav-toggle { display: inline-flex; margin-left: auto; background: none; border: 0; color: #fff; }
+  .site-nav { display: none; width: 100%; }
+  .site-nav.open { display: block; }
+  .site-nav ul { flex-direction: column; gap: 0.5rem; }
+  .container { position: relative; } 
 }
 
 
