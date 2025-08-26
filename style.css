@@ -6,7 +6,11 @@ body {
   margin: 0; 
   width: 100%;
 background-color: #080F28;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
+
 
 
 
