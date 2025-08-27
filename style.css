@@ -18,7 +18,7 @@ body {
     }
 
     .container {
-      max-width: 1500px;
+      max-width: 1700px;
       width: 100%;
       margin: 0 auto;
       padding: 0 0.5rem;
@@ -89,6 +89,7 @@ body {
       .site-nav ul { flex-direction: column; gap: 0.5rem; padding: 0.5rem 0; }
       .container { position: relative; }
     }
+
 
 
 
