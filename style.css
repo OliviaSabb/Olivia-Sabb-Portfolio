@@ -4,15 +4,16 @@ body {
 }
 
 .site-header {
-  height: 100px;
-  margin: 0; 
+  height: var(--header-height);
   width: 100%;
-background-color: #080F28;
+  background-color: var(--header-bg);
   position: sticky;
-  position: -webkit-sticky;
   top: 0;
+  z-index: 50;
+  display: flex;         
+  align-items: center;     
+  box-shadow: 0 1px 0 rgba(255,255,255,0.02);
 }
-
 
 .brand {
   color: #6fc3ff;
@@ -71,6 +72,7 @@ background-color: #080F28;
   .site-nav ul { flex-direction: column; gap: 0.5rem; }
   .container { position: relative; } 
 }
+
 
 
 
