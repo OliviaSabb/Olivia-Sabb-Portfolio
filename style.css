@@ -31,11 +31,13 @@
       color: #6fc3ff;
       text-decoration: none;
       font-weight: 600;
+      margin-left: 0.25rem;
       font-size: 1.125rem;
     }
 
     .site-nav {
       margin-left: auto;
+     margin-right: 0.25rem;
     }
 
     .site-nav ul {
@@ -87,6 +89,7 @@
       .site-nav ul { flex-direction: column; gap: 0.5rem; padding: 0.5rem 0; }
       .container { position: relative; }
     }
+
 
 
 
