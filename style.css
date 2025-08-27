@@ -47,7 +47,13 @@ background-color: #080F28;
 
 .site-main {
   align-items: center;    
-  text-align: center;      
+  text-align: center; 
+  min-height: calc(100vh - 72px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 @media (max-width: 720px) {
@@ -57,6 +63,7 @@ background-color: #080F28;
   .site-nav ul { flex-direction: column; gap: 0.5rem; }
   .container { position: relative; } 
 }
+
 
 
 
