@@ -97,6 +97,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        max-width: 48rem;   
       }
       .project-title { margin: 0; font-size: 1.05rem; color: #fff; }
       .project-desc { margin: 0; color: rgba(255,255,255,0.85); font-size: 0.95rem; flex: 1; }
@@ -135,6 +136,7 @@ body {
   background-color: #55a5d8; /* Darker background color on hover */
   color: #fff; /* Ensure text remains white on hover */
 }
+
 
 
 
