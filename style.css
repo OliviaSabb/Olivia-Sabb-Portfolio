@@ -111,6 +111,23 @@ body {
       .container { position: relative; }
     }
 
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the spacing as needed */
+  align-items: center; /* Center the links horizontally */
+}
+
+.contact-links a {
+  /* Add any additional styling for the links here */
+  text-decoration: none; /* Remove underlines */
+  color: #6fc3ff; /* Example color */
+}
+
+.contact-links a:hover {
+  color: #fff; /* Change color on hover */
+}
+
 
 
 
