@@ -1,8 +1,48 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>Contact me!</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">My Portfolio</a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger">☰</span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="content">
+      <h1>Contact</h1>
+      <div class="contact-links">
+        <a href="https://github.com/your-github-username" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:your-email@example.com">Email</a>
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle?.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      nav.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
