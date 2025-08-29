@@ -114,18 +114,26 @@ body {
 .contact-links {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Adjust the spacing as needed */
-  align-items: center; /* Center the links horizontally */
+  gap: 20px; /* Adjust the spacing as needed */
+  align-items: stretch; /* Stretch the links to fill the container */
+  width: 300px; /* Set a fixed width for the column */
+  margin: 0 auto; /* Center the column horizontally */
 }
 
 .contact-links a {
-  /* Add any additional styling for the links here */
-  text-decoration: none; /* Remove underlines */
-  color: #6fc3ff; /* Example color */
+  text-decoration: none;
+  color: #fff; /* White text */
+  background-color: #6fc3ff; /* Button background color */
+  padding: 12px 20px; /* Add padding for button appearance */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center the text */
+  display: block; /* Make the link a block-level element */
+  transition: background-color 0.3s ease; /* Add a smooth transition */
 }
 
 .contact-links a:hover {
-  color: #fff; /* Change color on hover */
+  background-color: #55a5d8; /* Darker background color on hover */
+  color: #fff; /* Ensure text remains white on hover */
 }
 
 
